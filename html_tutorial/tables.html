@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        tr:nth-child(even){
+            background-color:#b0acac;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+        Different Country and their speciality 
+        </caption>
+        <thead>
+        <tr>
+            <th>Country</th>
+            <th>Country code</th>
+            <th>speciality</th>
+        </tr>
+        <thead>
+        <tbody>
+        <tr>
+            <td>India</td>
+            <td>001</td>
+            <td>food</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>002</td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <td>Argentina</td>
+            <td>003</td>
+            <td>Messi</td>
+        </tr>
+    </tbody>
+    </table>
+    <br/>
+    <br/>
+
+    <table style="width: 50%;"><caption>
+        Different Country and their code 
+    </caption>
+        <tr>
+            <th>Country</th>
+            <td>India</td>
+            <td>Japan</td>
+        </tr>
+        <tr>
+            <th>code</th>
+            <td>In</td>
+            <td>Jp</td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">name</th>
+                <th scope="col">aniket</th>
+                <th scope="col">vedant</th>
+                <th scope="col">atharv</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">maths</th>
+                <td>80</td>
+                <td>90</td>
+                <td>85</td>
+                
+            </tr>
+            <tr>
+                <th scope="row">physics</th>
+                <td>85</td>
+                <td>80</td>
+                <td>90</td>
+
+            </tr>
+            <tr>
+                <th scope="row">chemistry</th>
+                <td>75</td>
+                <td>70</td>
+                <td>80</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total</th>
+                <td>240</td>
+                <td>240</td>
+                <td>255</td>
+            </tr>
+        </tfoot>
+    </table>
+   
+    
+</body>
+</html>

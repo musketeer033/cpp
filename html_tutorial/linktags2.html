@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>link_images</title>
+  </head>
+  <body>
+    <img
+      src="https://images.unsplash.com/photo-1719937206642-ca0cd57198cc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+      width="150px"
+      alt="image"
+    />
+
+    <picture
+      ><source
+        srcset="
+          https://images.unsplash.com/photo-1719937206642-ca0cd57198cc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8
+        "
+      />
+      <img
+        src="https://images.unsplash.com/photo-1719937206642-ca0cd57198cc?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+        width="150px"
+        alt="image2"
+      />
+    </picture>
+  </body>
+
+  <!-- code for image map generator -->
+
+  <img src="img1.jpg" usemap="#image-map" />
+
+  <map name="image-map">
+    <area
+      target=""
+      alt=""
+      title=""
+      href=""
+      coords="1698,1663,354"
+      shape="circle"
+    />
+  </map>
+</html>

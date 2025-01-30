@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(194, 141, 91);
+}
+p{
+    font-style: italic;
+    /* text-align: center; */
+}
+a.idd{
+    text-align: center;
+    align-items: center;
+}
+.container{
+    /* margin: 0 0 0 100px; */
+    text-align: center;
+}
